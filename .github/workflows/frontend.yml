@@ -11,6 +11,9 @@ defaults:
   run:
     working-directory: frontend
 
+permissions:
+  contents: read
+
 jobs:
   # ──────────────────────────────────────────────────────────────────────────
   # Job 1: Lint, type-check, test, build
